@@ -1,12 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Compute Currency Rate from account_move",
+    'name': "Percepciones discriminadas en el IVA",
 
     'summary': """
-        Computa la tasa de cambio de la moneda en base a la tasa de cambio de la factura""",
+        Percepciones discriminadas en el IVA""",
 
     'description': """
-        Computa la tasa de cambio de la moneda en base a la tasa de cambio de la factura
+        Percepciones discriminadas en el IVA
+        Este módulo agrega las percepciones discriminadas en el IVA a los reportes de IVA.
+        Se agregan las percepciones de IIBB Tucumán, Salta y Jujuy.
+        Se agrega la columna de Percepciones IIBB al libro IVA.
+        Se agrega la columna de Percepciones IIBB al libro IVA Ventas.
+        Se agrega la columna de Percepciones IIBB al libro IVA Compras.
     """,
 
     'author': "OutsourceArg",
